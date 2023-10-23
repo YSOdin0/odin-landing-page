@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Color palette*/
+
+.header, .main .intro {
+    background-color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.main .quote {
+    background-color: #E5E7EB;
+}
+
+.main .intro .text .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.main .intro .text .subtext, .header .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .main .sign-up {
+    background-color: #3882F6;
+}
+
+.main .info-tabs .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.main .quote .content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
