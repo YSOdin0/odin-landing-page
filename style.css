@@ -33,7 +33,7 @@ a {
     color: #F9FAF8;
 }
 
-.main .intro .text .subtext, .header .links a {
+.main .intro .text .subtext, .header .links a, .main .intro .text button {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -59,7 +59,7 @@ button, .main .sign-up {
     color: #1F2937;
 }
 
-/* Flex stuff */
+/* End of color palette */
 
 body {
     display: flex;
@@ -70,11 +70,33 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    padding: 16px;
 }
 
 .links {
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+.main .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+}
+
+.main .intro .text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 4px;
+}
+
+.main .intro .text button {
+    width: fit-content;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 15%;
 }
