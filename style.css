@@ -33,12 +33,12 @@ a {
     color: #F9FAF8;
 }
 
-.main .intro .text .subtext, .header .links a, .main .intro .text button {
+.main .intro .text .subtext, .header .links a, .main .intro .text button, .main .sign-up .text .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header .logo {
+.header .logo, .main .sign-up .text .title {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -98,7 +98,7 @@ body {
     width: fit-content;
     padding: 6px 16px;
     border: none;
-    border-radius: 15%;
+    border-radius: 5px;
 }
 
 .main .info-tabs {
@@ -124,4 +124,20 @@ body {
 
 .main .quote .person {
     align-self: flex-end;
+}
+
+.main .sign-up {
+    margin: 32px 64px;
+    padding: 32px 64px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .sign-up button {
+    border: 1px solid white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
 }
