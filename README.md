@@ -1,0 +1,1 @@
+The last exercise before starting to learn JS on the foundations course in the odin project.
