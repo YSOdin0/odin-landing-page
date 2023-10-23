@@ -115,3 +115,13 @@ body {
     flex-wrap: wrap;
     gap: 16px;
 }
+
+.main .quote {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.main .quote .person {
+    align-self: flex-end;
+}
