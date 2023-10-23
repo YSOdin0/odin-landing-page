@@ -1,6 +1,16 @@
+/* General definitions */
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.links {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Color palette*/
@@ -23,7 +33,7 @@
     color: #F9FAF8;
 }
 
-.main .intro .text .subtext, .header .links {
+.main .intro .text .subtext, .header .links a {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,4 +57,24 @@ button, .main .sign-up {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+/* Flex stuff */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
